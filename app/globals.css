@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-royal {
+    font-family: 'Cinzel', serif;
+  }
+  .font-serif-luxury {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-script-luxury {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .font-sans-luxury {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  .gold-gradient-text {
+    background: linear-gradient(135deg, #ECC876 0%, #C49832 50%, #FAF0CD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .gold-metallic-border {
+    border: 1px solid rgba(200, 160, 62, 0.35);
+  }
+
+  .luxury-card-bg {
+    background: linear-gradient(145deg, #2A2A2E 0%, #1A1A1C 100%);
+  }
+
+  .gold-shimmer-bg {
+    background: linear-gradient(135deg, #1C1917 0%, #121212 100%);
+    border: 1px solid rgba(212, 175, 55, 0.35);
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}

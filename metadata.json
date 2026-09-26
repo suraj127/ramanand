@@ -1,0 +1,6 @@
+{
+  "name": "House of Ramanand - Premium Jewellery",
+  "description": "Exclusive royal jewellery mobile application prototype for House of Ramanand, Jaipur Since 1936.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
