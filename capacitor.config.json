@@ -1,0 +1,8 @@
+{
+  "appId": "com.houseoframanand.app",
+  "appName": "House of Ramanand",
+  "webDir": "out",
+  "server": {
+    "androidScheme": "https"
+  }
+}

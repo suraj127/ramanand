@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">House of Ramanand</string>
+    <string name="title_activity_main">House of Ramanand</string>
+    <string name="package_name">com.houseoframanand.app</string>
+    <string name="custom_url_scheme">com.houseoframanand.app</string>
+</resources>

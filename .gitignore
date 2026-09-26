@@ -1,7 +1,16 @@
 node_modules/
 .next/
+out/
 coverage/
 .DS_Store
 *.log
 .env*
 !.env.example
+*.apk
+.gradle/
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/capacitor-android/build/
+android/capacitor-cordova-android-plugins/build/
