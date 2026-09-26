@@ -476,10 +476,10 @@ export function ProductDetailScreen() {
         )}
       </section>
 
-      {/* 4. Floating Sticky Bottom Bar (Screenshot 1 & Screenshot 5) */}
-      <footer className="fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-neutral-100 pt-3 pb-4 px-4 shadow-[0_-4px_16px_rgba(0,0,0,0.06)]">
+      {/* 4. Floating Sticky Bottom Bar */}
+      <footer className="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-t border-neutral-100 py-3 px-4 shadow-[0_-4px_16px_rgba(0,0,0,0.06)]">
         <div className="max-w-[440px] mx-auto">
-          {/* Full-width curved wine button matching Screenshot 1 & 5 */}
+          {/* Full-width curved button */}
           <button
             onClick={() => {
               addToCart(product, 1);
@@ -490,9 +490,6 @@ export function ProductDetailScreen() {
             <ShoppingBag className="w-4 h-4 stroke-[1.8]" />
             <span>Add To Cart</span>
           </button>
-
-          {/* Android / iOS Home Line Indicator */}
-          <div className="w-32 h-1 bg-neutral-300 rounded-full mx-auto mt-3"></div>
         </div>
       </footer>
     </div>

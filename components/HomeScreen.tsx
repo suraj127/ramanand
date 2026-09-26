@@ -155,38 +155,6 @@ export function HomeScreen() {
         </div>
       </section>
 
-      {/* 3. Live 24KT Gold Rate Card */}
-      <section className="px-4">
-        <div
-          onClick={() => setActiveTab('gold-rate')}
-          className="bg-[#FAF9F7] rounded-xl border border-neutral-200 p-3.5 flex items-center justify-between shadow-2xs cursor-pointer hover:border-neutral-300 transition"
-        >
-          <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-full bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-700">
-              <Coins className="w-5 h-5 stroke-[1.8]" />
-            </div>
-            <div>
-              <div className="flex items-center space-x-2">
-                <span className="text-xs font-semibold text-neutral-900">Today's Live Gold Rate (Jaipur)</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-              </div>
-              <p className="text-[11px] text-neutral-500 mt-0.5">
-                24KT: <strong className="text-neutral-900 font-mono font-bold">₹{digiGoldRate}/g</strong> • 22KT: <strong className="text-neutral-900 font-mono font-bold">₹7,188/g</strong>
-              </p>
-            </div>
-          </div>
-          <button
-            onClick={(e) => {
-              e.stopPropagation();
-              setActiveTab('gold-rate');
-            }}
-            className="px-3.5 py-1.5 bg-[#8E5827] text-white text-xs font-medium rounded-full hover:bg-[#76441B] shadow-2xs transition"
-          >
-            Check Rates
-          </button>
-        </div>
-      </section>
-
       {/* 4. Curated Earrings Showcase (Screenshot 2 preview) */}
       <section className="px-4 pt-1">
         <div className="flex items-center justify-between mb-3">

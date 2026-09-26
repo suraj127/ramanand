@@ -532,10 +532,10 @@ export function CartScreen() {
         <button
           onClick={handleProceedToPayment}
           disabled={isProcessingPayment}
-          className="py-3 px-6 bg-[#8E5827] hover:bg-[#76441B] text-white font-bold text-xs rounded-xl shadow-lg transition active:scale-98 flex items-center space-x-2"
+          className="py-3 px-3.5 sm:px-6 bg-[#8E5827] hover:bg-[#76441B] text-white font-bold text-xs rounded-xl shadow-lg transition active:scale-98 flex items-center space-x-1.5 shrink-0"
         >
-          <ShieldCheck className="w-4 h-4 text-[#E8CA72]" />
-          <span>Proceed to Secure Pay</span>
+          <ShieldCheck className="w-4 h-4 text-[#E8CA72] shrink-0" />
+          <span>Proceed to Pay</span>
         </button>
       </div>
 

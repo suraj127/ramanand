@@ -15,7 +15,7 @@ export function BottomNav() {
 
   return (
     <nav
-      className="fixed bottom-0 max-w-[440px] w-full bg-white border-t border-neutral-200 py-1.5 px-4 z-30 shadow-[0_-4px_16px_rgba(0,0,0,0.04)]"
+      className="fixed bottom-0 left-1/2 -translate-x-1/2 max-w-full sm:max-w-[440px] w-full bg-white/95 backdrop-blur-md border-t border-neutral-200/80 py-1.5 px-2 sm:px-4 z-30 shadow-[0_-4px_16px_rgba(0,0,0,0.04)]"
       data-purpose="bottom-navigation-bar"
     >
       <div className="flex items-center justify-around">
