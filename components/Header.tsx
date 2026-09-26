@@ -45,20 +45,6 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-neutral-100 shadow-2xs">
-      {/* Device Status Bar matching screenshots (23:02, 4G, 42%) */}
-      <div className="w-full bg-white px-5 pt-2 pb-1 flex items-center justify-between text-xs font-semibold text-neutral-800 select-none">
-        <span className="font-semibold text-[13px] tracking-tight text-neutral-900">23:02</span>
-        <div className="flex items-center space-x-2 text-[11px]">
-          <span className="font-bold tracking-tighter text-neutral-700">5G</span>
-          <svg className="w-3.5 h-3.5 fill-current text-neutral-800" viewBox="0 0 24 24">
-            <path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 18.25C2.9 16.48 2 14.34 2 12 2 6.48 6.48 2 12 2s10 4.48 10 10c0 2.34-.9 4.48-2.35 6.25l-.62-.64C20.26 16.07 21 14.12 21 12c0-4.97-4.03-9-9-9z" />
-          </svg>
-          <span className="font-semibold text-neutral-800">42%</span>
-          <div className="w-5 h-2.5 border border-neutral-700 rounded-xs p-[1px] flex items-center">
-            <div className="h-full bg-neutral-900 w-[42%] rounded-2xs"></div>
-          </div>
-        </div>
-      </div>
 
       {/* Main Top Bar */}
       <div className="px-4 py-2 flex items-center justify-between min-h-[46px]">
